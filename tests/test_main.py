@@ -1,6 +1,7 @@
 import unittest
 from src.main import sum_of_depths, TreeNode
 
+
 class TestSumOfDepths(unittest.TestCase):
     def test1(self):
         root = TreeNode(1)
