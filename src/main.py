@@ -21,4 +21,3 @@ def sum_of_depths(root: TreeNode) -> int:
             stack.append((node.right, depth + 1))
 
     return total_depth
-

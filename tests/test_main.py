@@ -23,3 +23,4 @@ class TestSumOfDepths(unittest.TestCase):
 
     def test4(self):
         self.assertEqual(sum_of_depths(None), 0)
+
