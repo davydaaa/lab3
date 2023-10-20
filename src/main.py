@@ -4,6 +4,7 @@ class TreeNode:
         self.left = left
         self.right = right
 
+
 def sum_of_depths(root: TreeNode) -> int:
     if root is None:
         return 0
